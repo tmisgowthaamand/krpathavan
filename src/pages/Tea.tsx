@@ -13,57 +13,99 @@ const teaProducts = [
     id: '1',
     name: 'Premium Assam Tea Powder',
     price: 700,
-    image: '/images/Premium Assam.png',
+    image: 'https://5.imimg.com/data5/SELLER/Default/2023/5/308434975/QH/SC/BW/9456940/lal-kaptaan-assam-tea-leaf-1kg-500x500.jpeg',
     category: 'tea',
     inStock: true,
     isNew: true,
-    rating: 4.8
+    rating: 4.8,
+    weight: '500g',
+    description: 'Sourced from the lush gardens of Upper Assam, this robust black tea offers a rich, malty flavor and a deep amber color. Perfect for a morning energy boost.',
+    details: {
+      benefits: ['Rich in antioxidants', 'Improves mental alertness', 'Supports heart health', 'Boosts energy levels'],
+      usage: 'Boil with water and milk. Add sugar or honey to taste. Best enjoyed for breakfast.',
+      origin: 'Assam, India'
+    }
   },
   {
     id: '2',
     name: 'Traditional Tamil Tea Blend',
     price: 900,
-    image: '/images/Traditional Tamil.png',
+    image: 'https://ootychocolatefactory.in/cdn/shop/files/StrongTea500GM.webp?v=1714117594&width=900',
     category: 'tea',
     inStock: true,
-    rating: 4.7
+    rating: 4.7,
+    weight: '500g',
+    description: 'A specially curated strong blend that captures the authentic taste of South Indian tea stalls. High-quality leaves processed for a bold kick.',
+    details: {
+      benefits: ['Instant refreshment', 'Strong aroma', 'Aids metabolism', 'High caffeine content for focus'],
+      usage: 'Traditionally prepared as "Meter Chai" with thick milk and aromatic spices.',
+      origin: 'Nilgiris, Tamil Nadu'
+    }
   },
   {
     id: '3',
     name: 'Organic Green Tea Powder',
     price: 2500,
-    image: '/images/Organic Green.png',
+    image: 'https://images-cdn.ubuy.co.in/66055ea29e4bc57f6835d189-encha-matcha-green-tea-powder-organic.jpg',
     category: 'tea',
     inStock: true,
-    rating: 4.6
+    rating: 4.6,
+    weight: '500g',
+    description: '100% organic green tea leaves stone-ground into a fine powder. Rich in EGCG and vitamins, offering a subtle earthy taste with floral notes.',
+    details: {
+      benefits: ['Boosts metabolic rate', 'Rich in catechins (EGCG)', 'Supports detoxification', 'Improves skin health'],
+      usage: 'Whisk with hot water (80°C) until frothy. Can also be added to smoothies or lattes.',
+      origin: 'Organic Gardens, Nilgiris'
+    }
   },
   {
     id: '4',
     name: 'Cardamom Flavored Tea',
     price: 650,
-    image: '/images/Cardamom.png',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOw-Mme51ko7dpwpHcgGyINiY2CvhivWYpZw&s',
     category: 'tea',
     inStock: false,
-    rating: 4.9
+    rating: 4.9,
+    weight: '500g',
+    description: 'Premium tea leaves infused with the natural essence of freshly ground green cardamom pods. A refreshing and aromatic experience in every sip.',
+    details: {
+      benefits: ['Natural digestive aid', 'Relieves bloating', 'Fresh breath', 'Reduces stress'],
+      usage: 'Brew with milk and a touch of ginger for a classic elachi chai.',
+      origin: 'Idukki/Ariyalur Blend'
+    }
   },
   {
     id: '5',
     name: 'Ginger Tea Blend',
     price: 800,
-    image: '/images/Ginger Tea.png',
+    image: 'https://5.imimg.com/data5/SELLER/Default/2024/9/454882056/HT/LJ/NT/186300671/jfhgjfjh-500x500.jpg',
     category: 'tea',
     inStock: true,
-    rating: 4.5
+    rating: 4.5,
+    weight: '500g',
+    description: 'Perfect for rainy days, this zesty blend combines strong CTC tea with dried ginger bits. Known for its warming properties and spicy undertones.',
+    details: {
+      benefits: ['Anti-inflammatory properties', 'Great for immunity', 'Relieves cold and cough', 'Aids digestion'],
+      usage: 'Enjoy hot with milk or as a lemon-ginger black tea.',
+      origin: 'Western Ghats'
+    }
   },
   {
     id: '6',
     name: 'Masala Chai Powder',
     price: 1000,
-    image: '/images/Masala Chai.png',
+    image: 'https://twoandabud.com/cdn/shop/files/Untitleddesign_18_6d2471b7-6e46-4088-9816-6326faffc6ac.png?v=1716289483',
     category: 'tea',
     inStock: true,
     isNew: true,
-    rating: 4.8
+    rating: 4.8,
+    weight: '500g',
+    description: 'A powerful blend of 7 traditional Indian spices: CLove, Cardamom, Cinnamon, Black Pepper, Ginger, Star Anise, and Nutmeg. The ultimate Indian tea experience.',
+    details: {
+      benefits: ['Immunity booster', 'Rich in antioxidants', 'Natural energy lifter', 'Improves gut health'],
+      usage: 'Add 1/4 teaspoon per cup while brewing your regular tea.',
+      origin: 'Traditional Recipe'
+    }
   }
 ];
 

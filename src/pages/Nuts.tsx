@@ -12,47 +12,82 @@ const nutsProducts = [
     id: "n1",
     name: 'Premium Cashew Nuts',
     price: 2200,
-    image: '/images/Cashew Nuts.png',
+    image: 'https://www.nutraj.com/cdn/shop/files/nutraj-premium-cashew-500gm-02_882x882.jpg?v=1754310557',
     category: 'nuts',
     inStock: true,
     isNew: true,
-    rating: 4.8
+    rating: 4.8,
+    weight: '500g',
+    description: 'Our premium cashews are large, crunchy, and packed with a naturally sweet, creamy flavor. Carefully cleaned and processed for the highest quality.',
+    details: {
+      benefits: ['Supports heart health', 'Good source of magnesium', 'Rich in plant-based protein', 'Aids in bone health'],
+      usage: 'Enjoy as a snack, add to stir-fries, or blend into creamy vegan sauces.',
+      origin: 'Premium Local Farms'
+    }
   },
   {
     id: '3',
     name: 'Pistachio Kernels',
     price: 2300,
-    image: '/images/Pistachio Kernels.png',
+    image: 'https://kunuts.com/cdn/shop/files/RoastedPistachiosSupreme.png?v=1715428842',
     category: 'nuts',
     inStock: true,
-    rating: 4.7
+    rating: 4.7,
+    weight: '500g',
+    description: 'Vibrant green kernels that are naturally low in calories but high in flavor. These roasted pistachios offer a satisfying crunch and balanced nutrition.',
+    details: {
+      benefits: ['Supports eye health', 'Heart-conscious snack', 'Rich in potassium', 'Promotes gut bacteria health'],
+      usage: 'Perfect for topping salads, desserts, or as a standalone healthy snack.',
+      origin: 'California/Iranian Grade'
+    }
   },
   {
     id: '4',
     name: 'Walnut Halves',
     price: 2200,
-    image: '/images/Walnut.png',
+    image: 'https://gourmiaindia.com/wp-content/uploads/2024/01/Gourmia-California-Walnut-Inshell-500g-Front-1268x1536.png',
     category: 'nuts',
     inStock: false,
-    rating: 4.6
+    rating: 4.6,
+    weight: '500g',
+    description: 'Expertly shelled walnut halves with a distinctively rich, slightly bitter flavor. Known as the ultimate "Brain Food" due to their high Omega-3 content.',
+    details: {
+      benefits: ['Excellent for brain function', 'Rich in Omega-3 (ALA)', 'Helps lower cholesterol', 'Anti-inflammatory effects'],
+      usage: 'Add to morning oatmeal, yogurt, or use in baking healthy brownies.',
+      origin: 'Kashmir/California'
+    }
   },
   {
     id: '5',
     name: 'Premium Mixed Nuts',
     price: 2000,
-    image: '/images/Mixed Nuts.png',
+    image: 'https://greenfinitydryfruits.com/cdn/shop/files/81MbHuI3fZL._SL1500_09ef6fa1-a7f9-4644-8d8d-795cdd4976a9_1000x.jpg?v=1761711456',
     category: 'nuts',
     inStock: true,
-    rating: 4.9
+    rating: 4.9,
+    weight: '500g',
+    description: 'A gourmet blend of cashew nuts, almonds, walnuts, and pistachios. Perfectly balanced for taste and nutrition in a single pack.',
+    details: {
+      benefits: ['Complete nutritional profile', 'Variety of healthy fats', 'Fiber-rich', 'Sustained energy boost'],
+      usage: 'The ideal travel snack or morning energy mix for athletes.',
+      origin: 'Curated Premium Mix'
+    }
   },
   {
     id: '6',
     name: 'Hazelnuts',
     price: 1800,
-    image: '/images/Hazelnuts.png',
+    image: 'https://urbanplatter.com/cdn/shop/files/13509_01_-_Exotic_Hazelnuts_500g.jpg?v=1752478612&width=1214',
     category: 'nuts',
     inStock: true,
-    rating: 4.5
+    rating: 4.5,
+    weight: '500g',
+    description: 'Exotic hazelnuts that are delicately roasted to bring out their unique nutty aroma. High in antioxidants and great for everyday well-being.',
+    details: {
+      benefits: ['Supports skin health (Vit E)', 'Rich in proanthocyanidins', 'Aids digestion', 'Healthy blood sugar support'],
+      usage: 'Chop and sprinkle over desserts or homemade granola.',
+      origin: 'Turkey/Global Import'
+    }
   }
 ];
 

@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      
+
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-primary/10 via-primary/5 to-background section-padding">
         <div className="container-fluid text-center space-y-8">
@@ -19,7 +19,7 @@ const About = () => {
             From <span className="text-gradient-brand">Ariyalur</span>, with Love
           </h1>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto accent-font leading-relaxed">
-            K R Pathavan Trading Company has been the heart of authentic Tamil Nadu flavors. 
+            K R Pathavan Trading Company has been the heart of authentic Tamil Nadu flavors.
             Our journey began in the bustling markets of Ariyalur, where quality and trust became our foundation.
           </p>
         </div>
@@ -35,36 +35,32 @@ const About = () => {
               </h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Started by Mr. Karthickrajan Pathavan in 2024, our company emerged from a simple vision: 
-                  to bring the authentic taste of Tamil Nadu's finest produce to every household. 
-                  What began as a small family business in Ariyalur has grown into a trusted name 
+                  Started by Mr. Karthickrajan Pathavan in 2024, our company emerged from a simple vision:
+                  to bring the authentic taste of Tamil Nadu's finest produce to every household.
+                  What began as a small family business in Ariyalur has grown into a trusted name
                   across South India.
                 </p>
                 <p>
-                  We source our tea directly from the lush plantations of the Nilgiris and Western Ghats, 
-                  our nuts from the finest orchards, and our dry fruits from trusted suppliers who share 
-                  our commitment to quality. Every product that bears our name has been carefully selected, 
+                  We source our tea directly from the lush plantations of the Nilgiris and Western Ghats,
+                  our nuts from the finest orchards, and our dry fruits from trusted suppliers who share
+                  our commitment to quality. Every product that bears our name has been carefully selected,
                   tested, and approved by our quality experts.
                 </p>
                 <p>
-                  Today, we serve over 1000 families and businesses, but our core values remain unchanged: 
+                  Today, we serve over 1000 families and businesses, but our core values remain unchanged:
                   authenticity, quality, and the warmth of Tamil Nadu hospitality in every package we deliver.
                 </p>
               </div>
             </div>
-            
-            <div className="relative">
-              <div className="aspect-[4/3] bg-gradient-to-br from-primary/20 via-accent/20 to-secondary/20 rounded-2xl p-8 shadow-tea">
-                <div className="w-full h-full bg-white/50 rounded-xl flex items-center justify-center">
-                  <div className="text-center space-y-4">
-                    <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto">
-                      <Heart className="w-10 h-10 text-primary-foreground" />
-                    </div>
-                    <p className="text-muted-foreground font-medium">
-                      Heritage photo<br />coming soon
-                    </p>
-                  </div>
-                </div>
+
+            <div className="relative group">
+              <div className="absolute -inset-4 bg-gradient-to-r from-primary/10 to-accent/10 rounded-[2rem] blur-2xl opacity-40" />
+              <div className="relative aspect-square max-w-[480px] mx-auto overflow-hidden rounded-2xl shadow-2xl border-4 border-white/10 bg-[#1a1a1a] flex items-center justify-center p-6">
+                <img
+                  src="/about logo.jpeg"
+                  alt="K R Pathavan Trading Company Logo"
+                  className="w-full h-full object-contain"
+                />
               </div>
             </div>
           </div>
@@ -82,7 +78,7 @@ const About = () => {
               The principles that guide everything we do
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="border-none shadow-soft hover-lift text-center">
               <CardContent className="p-8 space-y-4">
@@ -91,12 +87,12 @@ const About = () => {
                 </div>
                 <h3 className="text-xl font-poppins font-semibold">Authenticity</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  We preserve traditional methods and authentic flavors that continue to be 
+                  We preserve traditional methods and authentic flavors that continue to be
                   cherished in Tamil Nadu.
                 </p>
               </CardContent>
             </Card>
-            
+
             <Card className="border-none shadow-soft hover-lift text-center">
               <CardContent className="p-8 space-y-4">
                 <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto">
@@ -104,12 +100,12 @@ const About = () => {
                 </div>
                 <h3 className="text-xl font-poppins font-semibold">Quality Excellence</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Every product undergoes rigorous quality checks to ensure only the 
+                  Every product undergoes rigorous quality checks to ensure only the
                   finest reaches our customers' tables.
                 </p>
               </CardContent>
             </Card>
-            
+
             <Card className="border-none shadow-soft hover-lift text-center">
               <CardContent className="p-8 space-y-4">
                 <div className="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto">
@@ -117,7 +113,7 @@ const About = () => {
                 </div>
                 <h3 className="text-xl font-poppins font-semibold">Family Trust</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  We build lasting relationships with our customers, treating each 
+                  We build lasting relationships with our customers, treating each
                   family as part of our extended community.
                 </p>
               </CardContent>
@@ -137,7 +133,7 @@ const About = () => {
               Numbers that tell our story
             </p>
           </div>
-          
+
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center space-y-3">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
@@ -149,7 +145,7 @@ const About = () => {
                 Serving authentic flavors since 2024
               </p>
             </div>
-            
+
             <div className="text-center space-y-3">
               <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto">
                 <Users className="w-8 h-8 text-accent" />
@@ -160,7 +156,7 @@ const About = () => {
                 Families trusting us daily
               </p>
             </div>
-            
+
             <div className="text-center space-y-3">
               <div className="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto">
                 <Leaf className="w-8 h-8 text-secondary" />
@@ -171,7 +167,7 @@ const About = () => {
                 Carefully curated selection
               </p>
             </div>
-            
+
             <div className="text-center space-y-3">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
                 <MapPin className="w-8 h-8 text-primary" />

@@ -17,39 +17,63 @@ const featuredProducts = [
     id: '1',
     name: 'Premium Assam Tea Powder',
     price: 700,
-    image: '/images/Premium Assam.png',
+    image: 'https://5.imimg.com/data5/SELLER/Default/2023/5/308434975/QH/SC/BW/9456940/lal-kaptaan-assam-tea-leaf-1kg-500x500.jpeg',
     category: 'tea',
     inStock: true,
     isNew: true,
-    rating: 4.8
+    rating: 4.8,
+    weight: '500g',
+    description: 'Sourced from the lush gardens of Upper Assam, this robust black tea offers a rich, malty flavor and a deep amber color.',
+    details: {
+      benefits: ['Rich in antioxidants', 'Improves mental alertness', 'Supports heart health'],
+      usage: 'Best enjoyed with milk and sugar for a traditional morning cup.'
+    }
   },
   {
     id: '2',
     name: 'Premium Cashew Nuts',
     price: 2200,
-    image: '/images/Cashew Nuts.png',
+    image: 'https://www.nutraj.com/cdn/shop/files/nutraj-premium-cashew-500gm-02_882x882.jpg?v=1754310557',
     category: 'nuts',
     inStock: true,
-    rating: 4.9
+    rating: 4.9,
+    weight: '500g',
+    description: 'Our premium cashews are large, crunchy, and packed with a naturally sweet, creamy flavor.',
+    details: {
+      benefits: ['Supports heart health', 'Good source of magnesium', 'Rich in plant-based protein'],
+      usage: 'Perfect as a healthy snack or for culinary use in desserts and curries.'
+    }
   },
   {
     id: '3',
     name: 'Premium Dates',
     price: 1200,
-    image: '/images/Premium Dates.png',
+    image: 'https://www.sharbatidates.com/cdn/shop/files/Untitled_design_-_2025-07-29T170736.435.webp?v=1753794566&width=1200',
     category: 'dry-fruits',
     inStock: true,
-    rating: 4.7
+    rating: 4.7,
+    weight: '500g',
+    description: 'Succulent, soft, and naturally sweet dates sourced from the finest palms. Nature’s energy bars.',
+    details: {
+      benefits: ['Instant energy booster', 'High in fiber', 'Rich in potassium'],
+      usage: 'Excellent as a pre-workout snack or natural sweetener in smoothies.'
+    }
   },
   {
     id: '4',
     name: 'Pistachio Kernels',
     price: 2300,
-    image: '/images/Pistachio Kernels.png',
+    image: 'https://kunuts.com/cdn/shop/files/RoastedPistachiosSupreme.png?v=1715428842',
     category: 'nuts',
     inStock: true,
     isNew: true,
-    rating: 4.8
+    rating: 4.8,
+    weight: '500g',
+    description: 'Vibrant green kernels that are naturally low in calories but high in flavor.',
+    details: {
+      benefits: ['Supports eye health', 'Heart-conscious snack', 'Rich in antioxidants'],
+      usage: 'Great for snacking or as a colorful topping for salads and ice creams.'
+    }
   }
 ];
 

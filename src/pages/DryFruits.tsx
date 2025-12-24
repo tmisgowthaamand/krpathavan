@@ -12,57 +12,99 @@ const dryFruitsProducts = [
     id: "df1",
     name: "Premium Dates",
     price: 1200,
-    image: '/images/Premium Dates.png',
+    image: 'https://www.sharbatidates.com/cdn/shop/files/Untitled_design_-_2025-07-29T170736.435.webp?v=1753794566&width=1200',
     category: "Dry Fruits",
     inStock: true,
     isNew: true,
-    rating: 4.9
+    rating: 4.9,
+    weight: '500g',
+    description: 'Succulent, soft, and naturally sweet dates sourced from the finest palms. These are nature’s energy bars, perfect for a quick healthy bite.',
+    details: {
+      benefits: ['Instant energy booster', 'High in fiber', 'Rich in potassium and magnesium', 'Natural low-glycemic sweetener'],
+      usage: 'Eat as is, stuff with nuts, or use in smoothies and sugar-free desserts.',
+      origin: 'Middle East / Premium Grade'
+    }
   },
   {
     id: "df2",
     name: "Dried Figs",
     price: 1800,
-    image: '/images/Dried Figs.png',
+    image: 'https://www.saffrondryfruit.com/wp-content/uploads/2024/03/Soft-figs-500g-front-1024x1024.png',
     category: "Dry Fruits",
     inStock: true,
-    rating: 4.7
+    rating: 4.7,
+    weight: '500g',
+    description: 'Our dried figs (Anjeer) are soft, chewy, and naturally sun-dried to preserve their sweetness and nutritional value. An excellent source of dietary fiber.',
+    details: {
+      benefits: ['Promotes digestive health', 'Rich in calcium for bones', 'Helps manage blood pressure', 'Antioxidant-rich'],
+      usage: 'Soak overnight in water for better digestion or add to festive milkshakes.',
+      origin: 'Afghanistan / India'
+    }
   },
   {
     id: "df3",
     name: "Raisins",
     price: 700,
-    image: '/images/Raisins.png',
+    image: 'https://www.silkrute.com/images/detailed/3044/61JL78FJWOL.jpg',
     category: "Dry Fruits",
     inStock: true,
-    rating: 4.6
+    rating: 4.6,
+    weight: '500g',
+    description: 'Large, seedless golden raisins with a plump texture and honey-like sweetness. Processed under hygienic conditions to ensure purity.',
+    details: {
+      benefits: ['High in iron and copper', 'Good for oral health', 'Natural source of energy', 'Supports blood health'],
+      usage: 'Sprinkle over kheer, biryani, or include in your daily trail mix.',
+      origin: 'Nashik, Maharashtra'
+    }
   },
   {
     id: "df4",
     name: "Dried Apricots",
     price: 2000,
-    image: '/images/Dried Apricots.png',
+    image: 'https://www.saffrondryfruit.com/wp-content/uploads/2024/03/Sweet-Apricots-500g-front-1024x1024.png',
     category: "Dry Fruits",
     inStock: false,
-    rating: 4.8
+    rating: 4.8,
+    weight: '500g',
+    description: 'Golden-orange dried apricots that are naturally sweet and slightly tangy. They are fat-free and packed with essential vitamins.',
+    details: {
+      benefits: ['Supports eye health (Vit A)', 'Good for skin glow', 'Rich in dietary fiber', 'Helps in weight management'],
+      usage: 'Perfect as a midday snack or chopped into breakfast cereals.',
+      origin: 'Turkey / Ladakh'
+    }
   },
   {
     id: "df5",
     name: "Mixed Dry Fruits",
     price: 2000,
-    image: '/images/Mixed Dry.png',
+    image: 'https://www.jiomart.com/images/product/original/490006376/good-life-mixed-dry-fruits-500-g-product-images-o490006376-p490006376-0-202306090356.jpg?im=Resize=(420,420)',
     category: "Dry Fruits",
     inStock: true,
     isNew: true,
-    rating: 4.5
+    rating: 4.5,
+    weight: '500g',
+    description: 'A nutritious assortment of premium dates, figs, apricots, and raisins. A powerpack of antioxidants and minerals.',
+    details: {
+      benefits: ['Balanced mineral intake', 'High antioxidant levels', 'Supports overall immunity', 'Great for snacking on the go'],
+      usage: 'Keep a pack at your desk for healthy munching throughout the day.',
+      origin: 'Premium Assorted Mix'
+    }
   },
   {
     id: "df6",
     name: "Dried Cranberries",
     price: 1800,
-    image: '/images/Dried Cranberries.png',
+    image: 'https://m.media-amazon.com/images/I/418Q5u4StBL._SX300_SY300_QL70_FMwebp_.jpg',
     category: "Dry Fruits",
     inStock: true,
-    rating: 4.4
+    rating: 4.4,
+    weight: '500g',
+    description: 'Sweetened dried cranberries that offer a delightful burst of tart flavor. These are carefully dried to maintain their vibrant color and nutrients.',
+    details: {
+      benefits: ['Supports urinary tract health', 'High in Vitamin C', 'Anti-inflammatory benefits', 'Good for heart health'],
+      usage: 'Add to salads, muffins, or top over your favorite Greek yogurt.',
+      origin: 'USA / Premium Import'
+    }
   }
 ];
 
