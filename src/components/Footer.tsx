@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-charcoal text-off-white">
       <div className="container-fluid section-padding">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center">
@@ -15,7 +15,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-off-white/80 text-sm leading-relaxed">
-              Your trusted source for premium tea powder, dry fruits, and nuts. 
+              Your trusted source for premium tea powder, dry fruits, and nuts.
               Bringing authentic Tamil Nadu flavors to your doorstep with quality you can trust.
             </p>
           </div>
@@ -33,7 +33,7 @@ const Footer = () => {
                 { name: 'Bulk Orders', href: '/bulk-orders' }
               ].map((link) => (
                 <li key={link.name}>
-                  <Link 
+                  <Link
                     to={link.href}
                     className="text-off-white/70 hover:text-accent transition-colors text-sm"
                   >
@@ -44,40 +44,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Customer Support */}
-          <div className="space-y-4">
-            <h4 className="font-poppins text-lg font-semibold">Customer Support</h4>
-            <ul className="space-y-3">
-              <li>
-                <Link 
-                  to="/contact"
-                  className="text-off-white/70 hover:text-accent transition-colors text-sm"
-                >
-                  Contact Us
-                </Link>
-              </li>
-              <li>
-                <a 
-                  href="mailto:info@krpathavan.com"
-                  className="text-off-white/70 hover:text-accent transition-colors text-sm"
-                >
-                  Email Support
-                </a>
-              </li>
-              <li>
-                <span className="text-off-white/70 text-sm">
-                  Return Policy
-                </span>
-              </li>
-              <li>
-                <span className="text-off-white/70 text-sm">
-                  Privacy Policy
-                </span>
-              </li>
-            </ul>
-          </div>
-
-          {/* Contact Info */}
+          {/* Get in Touch */}
           <div className="space-y-4">
             <h4 className="font-poppins text-lg font-semibold">Get in Touch</h4>
             <div className="space-y-3">
@@ -89,21 +56,21 @@ const Footer = () => {
                   <p>ARIYALUR, TAMIL NADU - 621802</p>
                 </div>
               </div>
-              
+
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-accent" />
-                <a 
+                <a
                   href="tel:+919360428764"
                   className="text-sm text-off-white/70 hover:text-accent transition-colors"
                 >
                   +91 9360428764
                 </a>
               </div>
-              
+
               <div className="space-y-2">
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-accent flex-shrink-0" />
-                  <a 
+                  <a
                     href="mailto:info@krpathavan.com"
                     className="text-sm text-off-white/70 hover:text-accent transition-colors"
                   >
@@ -112,7 +79,7 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-accent flex-shrink-0 opacity-0" />
-                  <a 
+                  <a
                     href="mailto:krpathavantradingcompany@gmail.com"
                     className="text-sm text-off-white/70 hover:text-accent transition-colors"
                   >
@@ -123,12 +90,13 @@ const Footer = () => {
             </div>
 
             {/* WhatsApp CTA */}
-            <a 
-              href="https://wa.me/919360428764" 
-              target="_blank" 
+            <a
+              href="https://wa.me/919360428764"
+              target="_blank"
               rel="noopener noreferrer"
+              className="inline-block w-full"
             >
-              <Button className="w-full bg-green-600 hover:bg-green-700 text-white">
+              <Button className="w-full bg-green-600 hover:bg-green-700 text-white mt-2">
                 <MessageCircle className="mr-2 w-4 h-4" />
                 WhatsApp Us
               </Button>
@@ -148,6 +116,9 @@ const Footer = () => {
               <div className="flex flex-wrap justify-center gap-x-4 gap-y-2">
                 <Link to="/shipping-policy" className="text-sm text-off-white/70 hover:text-accent transition-colors whitespace-nowrap">
                   Shipping Policy
+                </Link>
+                <Link to="/return-policy" className="text-sm text-off-white/70 hover:text-accent transition-colors whitespace-nowrap">
+                  Return Policy
                 </Link>
                 <Link to="/cancellation-refund-policy" className="text-sm text-off-white/70 hover:text-accent transition-colors whitespace-nowrap">
                   Cancellation & Refund
